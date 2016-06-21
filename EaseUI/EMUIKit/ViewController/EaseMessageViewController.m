@@ -330,6 +330,8 @@
     _dataSource = dataSource;
     
     [self setupEmotion];
+    
+    [self tableViewDidTriggerHeaderRefresh];
 }
 
 - (void)setDelegate:(id<EaseMessageViewControllerDelegate>)delegate
